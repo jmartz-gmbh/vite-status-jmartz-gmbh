@@ -11,14 +11,14 @@ import {
   faPlus,
   faEdit,
   faBars,
-  faCircleArrowDown,
+  faCircleCheck,
   faCircleArrowUp
 } from "@fortawesome/free-solid-svg-icons";
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faEdit, faPlus, faBars, faCircleArrowDown, faCircleArrowUp);
+library.add(faEdit, faPlus, faBars, faCircleCheck, faCircleArrowUp);
 
 import plausible from "./plugins/plausible";
 

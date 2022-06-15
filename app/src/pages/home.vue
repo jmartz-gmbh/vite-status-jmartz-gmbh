@@ -2,7 +2,7 @@
   <div class="vp-home">
     <div class="tw-table block border border-black">
       <div class="row grid grid-cols-12 bg-gray-300 font-bold px-2 py-2">
-        <div class="col col-span-12 md:col-span-2">Id</div>
+        <div class="col col-span-12 md:col-span-2">Nr</div>
         <div class="col col-span-12 md:col-span-2">Name</div>
         <div class="col col-span-12 md:col-span-2">Status</div>
       </div>
@@ -15,7 +15,7 @@
         <div class="col col-span-12 md:col-span-4">{{ server.link }}</div>
         <div class="col col-span-12 md:col-span-2">
           <span v-if="server.status">
-            <fa icon="circle-arrow-up" class="fa-2x"
+            <fa icon="circle-check" class="fa-2x"
           /></span>
           <span v-else><fa icon="circle-arrow-down" class="fa-2x" /></span>
         </div>
